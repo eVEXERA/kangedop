@@ -16,7 +16,7 @@ from VEXERA import MUSIC_BOT_NAME, app, db_mem, userbot
 from VEXERA.Core.PyTgCalls import Queues
 from VEXERA.Core.PyTgCalls.converter import convert
 from VEXERA.Core.PyTgCalls.Downloader import download
-from VEXERA.Database import remove_active_chat
+from VEXERA.DB import remove_active_chat
 from VEXERA.Inline import (audio_markup, audio_timer_markup_start,
                           primary_markup, timer_markup)
 from VEXERA.Utilities.changers import time_to_seconds
